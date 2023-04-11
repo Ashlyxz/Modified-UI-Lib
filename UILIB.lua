@@ -102,7 +102,7 @@ function library:CreateWindow(name, version, icon)
 	Close.Name = "Close"
 	Close.Parent = TitleBar
 	Close.BackgroundTransparency = 1.000
-	Close.Position = UDim2.new(0.853, 0, -0.2, 0)
+	Close.Position = UDim2.new(0.853, 0, 0, 0)
 	Close.Size = UDim2.new(0, 25, 0, 25)
 	Close.ZIndex = 2
 	Close.Image = "rbxassetid://3926305904"
@@ -113,7 +113,7 @@ function library:CreateWindow(name, version, icon)
 	Minimize.Parent = TitleBar
 	Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Minimize.BackgroundTransparency = 1.000
-	Minimize.Position = UDim2.new(0.753, 0, -0.2, 0)
+	Minimize.Position = UDim2.new(0.753, 0, 0, 0)
 	Minimize.Size = UDim2.new(0, 26, 0, 30)
 	Minimize.Image = "http://www.roblox.com/asset/?id=6035067836"
 
