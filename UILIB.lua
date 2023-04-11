@@ -102,8 +102,8 @@ function library:CreateWindow(name, version, icon)
 	Close.Name = "Close"
 	Close.Parent = TitleBar
 	Close.BackgroundTransparency = 1.000
-	Close.Position = UDim2.new(0.953333378, 0, 0.0666666627, 0)
-	Close.Size = UDim2.new(0, 25, 0, 25)
+	Close.Position = UDim2.new(0, 0.953333378, 0, 0.0666666627)
+	Close.Size = UDim2.new(25, 0, 25, 0)
 	Close.ZIndex = 2
 	Close.Image = "rbxassetid://3926305904"
 	Close.ImageRectOffset = Vector2.new(284, 4)
