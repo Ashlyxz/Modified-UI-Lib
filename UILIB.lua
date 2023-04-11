@@ -113,7 +113,7 @@ function library:CreateWindow(name, version, icon)
 	Minimize.Parent = TitleBar
 	Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Minimize.BackgroundTransparency = 1.000
-	Minimize.Position = UDim2.new(0.753, 0, 0.053, 0)
+	Minimize.Position = UDim2.new(0.753, 0, 0.04, 0)
 	Minimize.Size = UDim2.new(0, 26, 0, 30)
 	Minimize.Image = "http://www.roblox.com/asset/?id=6035067836"
 
